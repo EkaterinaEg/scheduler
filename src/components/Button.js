@@ -7,7 +7,7 @@ import "components/Button.scss";
 export default function Button(props) {
   const buttonClass = classnames("button", {
     "button--danger": props.danger,
-    "button--confirm": props.confirm
+    "button--confirm": props.confirm,
   });
 
   return (
